@@ -1,0 +1,136 @@
+{
+    "tiff": [
+        {
+            "index": 0,
+            "name": "tiled_image.10.tif",
+            "upper_left_corner": [
+                11.969549997954537,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                11.97,
+                49.91
+            ]
+        },
+        {
+            "index": 1,
+            "name": "tiled_image.6.tif",
+            "upper_left_corner": [
+                7.569729998772721,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                8.669684998568174,
+                49.91
+            ]
+        },
+        {
+            "index": 2,
+            "name": "tiled_image.7.tif",
+            "upper_left_corner": [
+                8.669684998568176,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                9.76963999836363,
+                49.91
+            ]
+        },
+        {
+            "index": 3,
+            "name": "tiled_image.5.tif",
+            "upper_left_corner": [
+                6.469774998977268,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                7.569729998772722,
+                49.91
+            ]
+        },
+        {
+            "index": 4,
+            "name": "tiled_image.4.tif",
+            "upper_left_corner": [
+                5.369819999181814,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                6.469774998977268,
+                49.91
+            ]
+        },
+        {
+            "index": 5,
+            "name": "tiled_image.0.tif",
+            "upper_left_corner": [
+                0.97,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                2.0699549997954536,
+                49.91
+            ]
+        },
+        {
+            "index": 6,
+            "name": "tiled_image.1.tif",
+            "upper_left_corner": [
+                2.0699549997954536,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                3.1699099995909075,
+                49.91
+            ]
+        },
+        {
+            "index": 7,
+            "name": "tiled_image.3.tif",
+            "upper_left_corner": [
+                4.26986499938636,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                5.369819999181814,
+                49.91
+            ]
+        },
+        {
+            "index": 8,
+            "name": "tiled_image.2.tif",
+            "upper_left_corner": [
+                3.1699099995909075,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                4.269864999386361,
+                49.91
+            ]
+        },
+        {
+            "index": 9,
+            "name": "tiled_image.9.tif",
+            "upper_left_corner": [
+                10.869594998159084,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                11.969549997954537,
+                49.91
+            ]
+        },
+        {
+            "index": 10,
+            "name": "tiled_image.8.tif",
+            "upper_left_corner": [
+                9.76963999836363,
+                49.41004772748967
+            ],
+            "upper_right_corner": [
+                10.869594998159084,
+                49.91
+            ]
+        }
+    ]
+}
