@@ -30,7 +30,7 @@ def create_tile_metadata(path_to_tiles, path_output_json):
                     "height": height,
                     "width": width,
                     "upper_left_corner": [minx, miny],
-                    "upper_right_corner": [maxx, maxy],
+                    "lower_right_corner": [maxx, maxy],
                 }
             )
         # Skip all files that aren't tiff files
