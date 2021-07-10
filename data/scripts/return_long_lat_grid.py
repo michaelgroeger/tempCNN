@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import json
 import re
 
@@ -31,9 +30,8 @@ def return_long_lat_grid(path_to_metadata, path_to_tile):
     steps_x = gap_x_dimension / resolution_x
     steps_y = gap_y_dimension / resolution_y
 
-    # Create 2D numpy array with interpolated values
-    lat_mask, long_mask = np.mgrid[x_min:x_max:steps_x, y_min:y_max:steps_y]
-
+    # Create 2D numpy array with interpolated values. Mind that x_max is exclusive. That might cause problems down the road.
+    long_mask, lat_mask = np.mgrid[y_min:y_max:steps_y, x_min:x_max:steps_x]
     # Next, merge two masks into 2D array, lookup rgb value for each pixel and then put this value into 3D array
     # stack arrays
     stacked_array = np.stack((lat_mask, long_mask))
