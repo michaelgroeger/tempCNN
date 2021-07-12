@@ -1,0 +1,46 @@
+{
+    "tiff": [
+        {
+            "index": 0,
+            "name": "tiled_image.104.tif",
+            "height": 3333,
+            "width": 7333,
+            "upper_left_corner": [
+                6.469774998977268,
+                45.410429547407034
+            ],
+            "lower_right_corner": [
+                7.569729998772722,
+                44.91047727489671
+            ]
+        },
+        {
+            "index": 1,
+            "name": "tiled_image.105.tif",
+            "height": 3333,
+            "width": 7333,
+            "upper_left_corner": [
+                7.569729998772721,
+                45.410429547407034
+            ],
+            "lower_right_corner": [
+                8.669684998568174,
+                44.91047727489671
+            ]
+        },
+        {
+            "index": 3,
+            "name": "tiled_image.103.tif",
+            "height": 3333,
+            "width": 7333,
+            "upper_left_corner": [
+                5.369819999181814,
+                45.410429547407034
+            ],
+            "lower_right_corner": [
+                6.469774998977268,
+                44.91047727489671
+            ]
+        }
+    ]
+}
