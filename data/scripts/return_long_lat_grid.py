@@ -3,7 +3,7 @@ import json
 import re
 
 
-def return_long_lat_grid(path_to_metadata, path_to_tile):
+def return_long_lat_grid(path_to_tile, path_to_metadata="data/outputs/metadata.json"):
     # Read in json with metadata
     with open(path_to_metadata, "r") as metadata:
         data = metadata.read()

@@ -29,8 +29,8 @@ def create_tile_metadata(path_to_tiles, path_output_json):
                     "name": tiff_files[tiff],
                     "height": height,
                     "width": width,
-                    "upper_left_corner": [minx, miny],
-                    "lower_right_corner": [maxx, maxy],
+                    "upper_left_corner": [minx, maxy],
+                    "lower_right_corner": [maxx, miny],
                 }
             )
         # Skip all files that aren't tiff files
@@ -41,5 +41,5 @@ def create_tile_metadata(path_to_tiles, path_output_json):
         json.dump(metadata, fp)
 
 
-create_tile_metadata("/Volumes/Volume/QGIS/tiled_image", "data/outputs/meatadata.json")
+create_tile_metadata("/Volumes/Volume/QGIS/tiled_image", "data/outputs/metadata.json")
 
