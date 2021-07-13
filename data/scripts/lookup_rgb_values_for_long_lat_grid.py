@@ -6,7 +6,7 @@ from tqdm import tqdm
 def lookup_rgb_values_for_long_lat_grid(
     stacked_array,
     path_to_temperature_csv="data/outputs/average_temp_color_coded.csv",
-    queries=1,
+    queries=100,
 ):
     # read in temperature csv
     temperature_data = pd.read_csv(path_to_temperature_csv)
